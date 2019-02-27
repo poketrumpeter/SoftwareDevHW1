@@ -17,3 +17,7 @@ body{
 .collapse{
     margin-bottom: 20px;
 }
+.radio_selection{
+    margin-left: 5px;
+    margin-right: 5px;
+}
