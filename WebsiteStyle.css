@@ -1,0 +1,19 @@
+body{
+    margin-left: 15px;
+    padding: 5px;
+    color: #1b1e21;
+}
+#about-me{
+    padding: 2%;
+}
+.rounded-circle{
+    margin-left: 30px;
+}
+
+.btn{
+    margin: 10px;
+}
+
+.collapse{
+    margin-bottom: 20px;
+}

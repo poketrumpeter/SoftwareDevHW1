@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="WebsiteStyle.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Bootstap Home Page</title>
+</head>
+<body>
+<header class="container">
+    <h1 class="display-2">Gregorio Figueroa</h1>
+    <div class="card" id="about-me">
+        <h3 >About Me</h3>
+
+        <p>
+            My name is Gregorio Figueroa and I am currently a double major in Computer Science and Technology Arts
+            and Media at CU Boulder. These majors go well together because they both approach what can be done with
+            technology from different angles. TAM (Technology Arts and Media) presents technology in a more artistic
+            and creative way, while Computer Science talks about some if the underlying function and working of
+            technology and how to manipulate it. I am doing these majors because I am interested in technology and
+            using computers to wither make things or accomplish tasks. I actually started as just a TAM major but after
+            taking CSCI 1300, an into coding class for C++, I wanted to add the Computer Science major.
+        </p>
+
+        <p>
+            An interesting fact about me is I am currently in AGO(Alpha Gamma Omega), a fraternity on campus. What is unique
+            about AGO is that it is a faith based christian fraternity. I pledged last spring(2018) and became an active near
+            the end of that semester. AGO has been such a cool and life-changing organization to be part of and I am thankful
+            for all that has come of it. Another interesting fact about myself is that I work as a lifeguard and am able to teach
+            swim lessons on the weekends. Finally one last interesting fact about me is that I also work at Starbucks on campus as
+            a barista.
+        </p>
+    </div>
+
+
+</header>
+
+<main>
+    <div class = professional_Profile>
+        <h2>Professional Profile</h2>
+        <p>My Github account:
+            <button type="button" class="btn-outline-dark">
+                <a href="https://github.com/poketrumpeter" >https://github.com/poketrumpeter</a>
+            </button>
+        </p>
+
+        <figure class = personalImage>
+            <img src="Gregorio_Figueroa.jpg" class = "rounded-circle" alt="Picture of Gregorio Figueroa">
+        </figure>
+
+        <h3>My Favorite Projects</h3>
+        <table class = "table table-dark table-striped">
+            <tr>
+                <th>Project</th> <th>Date</th> <th>Software Used</th>
+            </tr>
+
+            <tr>
+                <td>League of Legends game</td> <td>Fall 2017</td> <td>C++</td>
+            </tr>
+
+            <tr>
+                <td>Web Portfolio</td> <td>Fall 2018</td> <td>HTML, CSS, Javascript</td>
+            </tr>
+
+            <tr>
+                <td>Short video work</td> <td>Spring 2018</td> <td>Adobe: Premier Pro</td>
+            </tr>
+        </table>
+
+        <div id = vacations_and_hobbies>
+
+        </div>
+        <a class="btn btn-primary" data-toggle="collapse" href="#Vacations" role="button" aria-expanded="false" aria-controls="Vacations">
+            Favorite Vacations
+        </a>
+
+        <div class="collapse" id="Vacations">
+            <h3>Favorite Vacations</h3>
+            <p>
+                I have not been to many countries so instead I am going to list some of my favorite vacations
+            </p>
+            <ul class = vacations>
+                <li>
+                    Trip to Boston. I really loved walking around the city.
+                </li>
+                <li>
+                    Trip to Orlando, Florida. I also got to go to Universal Orlando Resort for a week.
+                </li>
+                <li>
+                    Trip to Portland, Oregon. Also went to Seaside and Depot Bay.
+                </li>
+            </ul>
+        </div>
+
+        <a class="btn btn-primary" data-toggle="collapse" href="#Interests" role="button" aria-expanded="false" aria-controls="Interests">
+            Hobbies
+        </a>
+
+
+        <div class = collapse id="Interests">
+            <h3>My Interests</h3>
+            <ol >
+                <li>
+                    Video-games(Red Dead Redemption 2, Super Smash Bros.)
+                </li>
+                <li>
+                    Movies(Star Wars, MCU, Green Book, Three Billboards outside Ebbing Missouri)
+                </li>
+                <li>
+                    Podcasts
+                </li>
+            </ol>
+        </div>
+
+        <!-- Modal -->
+
+        <br>
+  <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Thanks for visiting </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>I love computer science and my education and thank you for exploring some of the information about me</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</main>
+</body>
+</html>
